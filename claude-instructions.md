@@ -36,6 +36,19 @@ If missing: direct the user to https://git-scm.com
 
 ## Step 2: Clone the repo
 
+Check whether the repo is already cloned locally:
+
+```bash
+ls cookbook-ev-deal-finder
+```
+
+**If the directory exists** — navigate into it and pull the latest:
+```bash
+cd cookbook-ev-deal-finder
+git pull
+```
+
+**If it does not exist** — clone it:
 ```bash
 git clone https://github.com/Nimbleway/cookbook-ev-deal-finder
 cd cookbook-ev-deal-finder
